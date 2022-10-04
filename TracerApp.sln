@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerApp", "TracerApp\TracerApp.csproj", "{F847F180-16EF-42CB-8853-C65E7FEAE685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerLib", "Tracer\TracerLib.csproj", "{993628BE-8007-42FB-9082-C82DC243DFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerTests", "TracerTests\TracerTests.csproj", "{D4340FE6-AB59-44C8-8450-48800C757ED3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F847F180-16EF-42CB-8853-C65E7FEAE685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F847F180-16EF-42CB-8853-C65E7FEAE685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F847F180-16EF-42CB-8853-C65E7FEAE685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F847F180-16EF-42CB-8853-C65E7FEAE685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993628BE-8007-42FB-9082-C82DC243DFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993628BE-8007-42FB-9082-C82DC243DFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993628BE-8007-42FB-9082-C82DC243DFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993628BE-8007-42FB-9082-C82DC243DFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4340FE6-AB59-44C8-8450-48800C757ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4340FE6-AB59-44C8-8450-48800C757ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4340FE6-AB59-44C8-8450-48800C757ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4340FE6-AB59-44C8-8450-48800C757ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67DAD465-1E19-4AE4-AECB-B5AAF122FF19}
+	EndGlobalSection
+EndGlobal
